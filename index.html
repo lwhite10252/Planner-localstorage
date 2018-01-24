@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="author" content="Leanne White"/>
+	
+	<title>Daily Planner</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Oswald|Luckiest+Guy|Pacifico|Righteous" rel="stylesheet">
+	<link href="styles/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="styles/bootstrap.min.css" rel="stylesheet">
+	<link href="styles/main.css" rel="stylesheet" />
+	
+    <script src="scripts/main.js"></script>
+	
+	<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+	
+	<style>
+	.sidepic {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		float: right;
+	}
+	</style>
+</head>
+
+<body id="page-top" class="index" onload="initTable();">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-10 main">
+				<p align="center"><img src="images/header.png"></p>
+				<form id="form1">
+					<div id="container">
+					</div>
+					<br/>
+					<input type="text" id="txtRows" class="textbox" placeholder="WHAT ARE YOUR PLANS?"/>
+					<input id="btnSave" type="button" class="buttonSave" value="Save"/>
+					<input id="btnClear" type="button" class="buttonClear" value="Clear"/>
+				</form>
+			</div>
+			
+			<div class="col-md-2 sidepic">
+                <img src="images/planner.png" alt="A drawing of a girl"/>
+			</div>
+
+		</div>
+    </div>	
+</body>
+
+</html>

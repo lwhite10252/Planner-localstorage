@@ -1,0 +1,84 @@
+﻿body {
+    text-align: center;
+    background: url(../images/bg.png) repeat;
+    color: #491bac;
+    overflow: hidden;
+}
+
+.main {
+    margin: 50px auto;
+	padding: 50px;
+    left: 0;
+    right: 0;
+    border: 7px solid #a768f8;
+    background: #fba6e1;
+    background: linear-gradient(135deg,     #fcecfc 0%,
+                                            #fba6e1 43%,
+                                            #fd89d7 72%,
+                                            #ff7cd8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', 
+                                                        endColorstr='#ff7cd8',
+                                                        GradientType=1);
+}
+
+.textbox {
+    width: 300px;
+    height: 80px;
+    border: 0;
+	border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+    background: #ffffff;
+    border: 5px solid #ffffff;
+}
+
+.buttonSave, .buttonClear {
+    border: 0;
+    background: #a768f8;
+    height: 100px;
+    width: 100px;
+    margin-top: 2%;
+    font-size: 30px;
+    color: #ffffff;
+    border-radius: 70px;
+    border: 5px solid #ffffff;
+}
+
+.buttonSave {
+    font-family: 'Luckiest Guy', cursive;
+    margin-right: 20px;
+}
+
+.buttonClear {
+    font-family: 'Righteous', cursive;
+}
+
+table {
+    margin: 0 auto;
+    background: #ffffff;
+    border-collapse: collapse;
+    /*width: 92%;*/
+    border: 10px solid #afe1f9;
+    padding: 10px;
+}
+
+th, td {
+    border: 5px solid #afe1f9;
+    font-size: 20px;
+    padding: 10px;
+}
+
+th {
+    height: 35px;
+    background: #afe1f9;
+    font-weight: bold;
+}
+
+td {
+    height: 85px;
+    width: 12.5%;
+}
+
+tr {
+    font-family: 'Righteous', cursive;
+}
